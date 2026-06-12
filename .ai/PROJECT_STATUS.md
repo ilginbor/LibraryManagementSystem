@@ -6,7 +6,7 @@ Library Management System
 
 ## Current Phase
 
-Phase 0 — Project Initialization
+Phase 1 — Database Design & Migration
 
 ## Overall Progress
 
@@ -14,9 +14,9 @@ Phase 0 — Project Initialization
 
 * [x] Spring Boot project created
 * [x] Dependencies selected (JPA, Security, PostgreSQL, Flyway, Lombok, Validation, Docker)
-* [ ] Git repository initialized properly
-* [ ] README created
-* [ ] .ai context system created
+* [x] Git repository initialized properly
+* [x] README created
+* [x] .ai context system created
 
 ---
 
@@ -24,36 +24,42 @@ Phase 0 — Project Initialization
 
 ## Phase 0 — Project Initialization
 
-Status: IN PROGRESS
+Status: ✅ COMPLETED
+Commit: `docs: add project roadmap, ai context files and readme`
 
 Tasks:
 
 * [x] Create Spring Boot base project
-* [ ] Initialize Git with conventional commit workflow
-* [ ] Create .ai context files
-* [ ] Define package structure
-* [ ] Create initial README
+* [x] Initialize Git with conventional commit workflow
+* [x] Create .ai context files
+* [x] Define package structure
+* [x] Create initial README
 
 ---
 
 ## Phase 1 — Database Design & Migration
 
-Status: NOT STARTED
+Status: ✅ COMPLETED
+Commit: `feat(db): add flyway v1 schema migration and jpa entities`
 
 Tasks:
 
-* [ ] Create Flyway migration V1__init_schema.sql
-* [ ] Define users, roles, books tables
-* [ ] Define borrow_transactions table
-* [ ] Define reservations table
-* [ ] Add indexes and constraints
-* [ ] Run initial migration on PostgreSQL
+* [x] Create Flyway migration V1__init_schema.sql
+* [x] Define users, roles, books tables
+* [x] Define borrow_transactions table
+* [x] Define reservations table
+* [x] Add indexes and constraints
+* [x] Migrate application.properties → application.yaml with .env support
+* [x] Create .env / .env.example / update .gitignore
+* [x] Verify project compiles (mvn compile)
+* [x] Run initial migration on PostgreSQL — all 8 tables created, roles seeded ✅
+* [x] Committed: `feat(db): add flyway v1 schema, jpa entities, and yaml config with .env secret management`
 
 ---
 
 ## Phase 2 — Authentication System
 
-Status: NOT STARTED
+Status: 🔄 NEXT UP
 
 Tasks:
 
@@ -176,9 +182,9 @@ Tasks:
 
 Immediate next step:
 
-1. Create `DATABASE_SCHEMA.md`
-2. Create Flyway migration (V1__init_schema.sql)
-3. Implement base entities
+1. Verify Flyway migration runs cleanly on PostgreSQL
+2. Begin Phase 2: JWT Authentication System
+3. Provide context files: AI_RULES.md, PACKAGE_STRUCTURE.md, DATABASE_SCHEMA.md, API_SPEC.md
 
 ---
 
