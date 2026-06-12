@@ -75,7 +75,7 @@ docker-compose up -d
 The backend follows a **Feature-Based Architecture**, ensuring that each domain feature (e.g., Book, User, Borrow) encapsulates its own `Controller`, `Service`, `Repository`, `Entity`, and `DTOs`. Shared logic is maintained in `common`, `config`, `security`, and `exception` packages.
 
 ## 📄 API Documentation
-*(To be generated: Swagger/OpenAPI endpoints will be available at `/swagger-ui.html` once configured.)*
+Swagger/OpenAPI UI is available at `http://localhost:8080/swagger-ui.html` when the backend is running.
 
 ## 📝 License
 This project is licensed under the MIT License.

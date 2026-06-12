@@ -6,7 +6,7 @@ Library Management System
 
 ## Current Phase
 
-Phase 6 — Reservation System
+Phase 7 — Reporting System
 
 ## Overall Progress
 
@@ -135,20 +135,21 @@ Tasks:
 
 ## Phase 7 — Reporting System
 
-Status: 🔄 NEXT UP
+Status: ✅ COMPLETED
+Commit: `feat(report): add admin reporting endpoints`
 
 Tasks:
 
-* [ ] Most borrowed books report
-* [ ] Active users report
-* [ ] Overdue books report
-* [ ] Monthly statistics
+* [x] Most borrowed books report
+* [x] Active users report
+* [x] Overdue books report
+* [x] Monthly statistics
 
 ---
 
 ## Phase 8 — Dataset Import
 
-Status: NOT STARTED
+Status: 🔄 NEXT UP
 
 Tasks:
 
