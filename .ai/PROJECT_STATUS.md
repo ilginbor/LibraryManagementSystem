@@ -6,7 +6,7 @@ Library Management System
 
 ## Current Phase
 
-Phase 5 — Borrow System
+Phase 6 — Reservation System
 
 ## Overall Progress
 
@@ -121,20 +121,21 @@ Tasks:
 
 ## Phase 6 — Reservation System
 
-Status: 🔄 NEXT UP
+Status: ✅ COMPLETED
+Commit: `feat(reservation): implement reservation queuing and 48-hour expiration logic`
 
 Tasks:
 
-* [ ] Create reservation when book unavailable
-* [ ] Prevent duplicate active reservations
-* [ ] Reservation status handling
-* [ ] Expiration logic (48 hours rule)
+* [x] Create reservation when book unavailable
+* [x] Prevent duplicate active reservations
+* [x] Reservation status handling
+* [x] Expiration logic (48 hours rule)
 
 ---
 
 ## Phase 7 — Reporting System
 
-Status: NOT STARTED
+Status: 🔄 NEXT UP
 
 Tasks:
 
