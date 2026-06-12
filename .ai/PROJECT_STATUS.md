@@ -6,7 +6,7 @@ Library Management System
 
 ## Current Phase
 
-Phase 2 & 3 — Authentication & User/Role Management
+Phase 4 — Book Management
 
 ## Overall Progress
 
@@ -92,20 +92,21 @@ Tasks:
 
 ## Phase 4 — Book Management
 
-Status: 🔄 NEXT UP
+Status: ✅ COMPLETED
+Commit: `feat(book): implement book management endpoints and services`
 
 Tasks:
 
-* [ ] Book entity creation
-* [ ] Book CRUD endpoints
-* [ ] Search and filtering
-* [ ] Availability tracking
+* [x] Book entity creation
+* [x] Book CRUD endpoints
+* [x] Search and filtering
+* [x] Availability tracking
 
 ---
 
 ## Phase 5 — Borrow System
 
-Status: NOT STARTED
+Status: 🔄 NEXT UP
 
 Tasks:
 
