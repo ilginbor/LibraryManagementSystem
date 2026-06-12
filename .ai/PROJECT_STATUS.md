@@ -6,7 +6,7 @@ Library Management System
 
 ## Current Phase
 
-Phase 4 — Book Management
+Phase 5 — Borrow System
 
 ## Overall Progress
 
@@ -106,21 +106,22 @@ Tasks:
 
 ## Phase 5 — Borrow System
 
-Status: 🔄 NEXT UP
+Status: ✅ COMPLETED
+Commit: `feat(borrow): implement borrow system with 14 days due date limit`
 
 Tasks:
 
-* [ ] Borrow book endpoint
-* [ ] Return book endpoint
-* [ ] Due date logic (14 days)
-* [ ] Copy decrement/increment logic
-* [ ] Borrow history
+* [x] Borrow book endpoint
+* [x] Return book endpoint
+* [x] Due date logic (14 days)
+* [x] Copy decrement/increment logic
+* [x] Borrow history
 
 ---
 
 ## Phase 6 — Reservation System
 
-Status: NOT STARTED
+Status: 🔄 NEXT UP
 
 Tasks:
 
