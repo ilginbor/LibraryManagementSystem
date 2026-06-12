@@ -1,9 +1,11 @@
 services:
   postgres:
     image: 'postgres:16'
+    env_file:
+      - .env
     environment:
-      - 'POSTGRES_DB=library_db'
-      - 'POSTGRES_USER=postgres'
-      - 'POSTGRES_PASSWORD=postgres'
+      - POSTGRES_DB=${PGDATABASE}
+      - POSTGRES_USER=${PGUSER}
+      - POSTGRES_PASSWORD=${PGPASSWORD}
     ports:
       - '5432:5432'

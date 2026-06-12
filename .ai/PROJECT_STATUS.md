@@ -6,7 +6,7 @@ Library Management System
 
 ## Current Phase
 
-Phase 1 — Database Design & Migration
+Phase 2 & 3 — Authentication & User/Role Management
 
 ## Overall Progress
 
@@ -59,34 +59,40 @@ Tasks:
 
 ## Phase 2 — Authentication System
 
-Status: 🔄 NEXT UP
+Status: ✅ COMPLETED
+Commit: `feat(auth): implement jwt authentication with register and login endpoints`
 
 Tasks:
 
-* [ ] JWT configuration
-* [ ] User registration endpoint
-* [ ] Login endpoint
-* [ ] Password hashing (BCrypt)
-* [ ] Role-based authorization (ADMIN, LIBRARIAN, STUDENT)
+* [x] JWT configuration (JwtProperties, JwtService)
+* [x] User registration endpoint
+* [x] Login endpoint
+* [x] Password hashing (BCrypt)
+* [x] Role-based authorization (ADMIN, LIBRARIAN, STUDENT)
+* [x] GlobalExceptionHandler + ApiErrorResponse
+* [x] SecurityConfig with RBAC rules
+* [x] Swagger/OpenAPI whitelisted
+* [x] Validated against live PostgreSQL ✅
 
 ---
 
 ## Phase 3 — User & Role Management
 
-Status: NOT STARTED
+Status: ✅ COMPLETED
+Commit: `feat(auth): implement jwt authentication with register and login endpoints`
 
 Tasks:
 
-* [ ] Role entity and mapping
-* [ ] User CRUD operations
-* [ ] Role assignment logic
-* [ ] Admin user management endpoints
+* [x] Role entity and mapping (RoleRepository)
+* [x] UserDetailsService implementation
+* [x] Role assignment logic (STUDENT by default on register)
+* [ ] Admin user management endpoints (deferred to Phase 4+)
 
 ---
 
 ## Phase 4 — Book Management
 
-Status: NOT STARTED
+Status: 🔄 NEXT UP
 
 Tasks:
 

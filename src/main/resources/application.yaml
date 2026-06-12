@@ -8,7 +8,7 @@ spring:
   # DataSource — PostgreSQL
   # ===========================
   datasource:
-    url: jdbc:postgresql://localhost:5432/library_db
+    url: jdbc:postgresql://localhost:5432/${PGDATABASE}
     username: ${PGUSER}
     password: ${PGPASSWORD}
     driver-class-name: org.postgresql.Driver
