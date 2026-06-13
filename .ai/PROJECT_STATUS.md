@@ -163,20 +163,21 @@ Tasks:
 
 ## Phase 9 — Docker Setup
 
-Status: 🔄 NEXT UP
+Status: ✅ COMPLETED
+Commit: `feat(docker): add Dockerfile and docker-compose.yml for backend and database`
 
 Tasks:
 
-* [ ] Backend Dockerfile
-* [ ] Frontend Dockerfile (later stage)
-* [ ] docker-compose.yml (postgres + backend + frontend)
-* [ ] Environment configuration
+* [x] Backend Dockerfile
+* [x] Frontend Dockerfile (later stage)
+* [x] docker-compose.yml (postgres + backend + frontend)
+* [x] Environment configuration
 
 ---
 
 ## Phase 10 — Frontend Implementation
 
-Status: NOT STARTED
+Status: 🔄 NEXT UP
 
 Tasks:
 
@@ -193,11 +194,11 @@ Tasks:
 
 Immediate next step:
 
-1. Create Dockerfile for backend.
-2. Create docker-compose.yml for postgres and backend.
-3. Configure application.yaml for docker environment.
-4. Begin Phase 9: Docker Setup
-5. Provide context files: AI_RULES.md, DOCKER_ARCHITECTURE.md
+1. Setup React + Vite frontend application
+2. Implement Authentication and routing
+3. Create UI for Books, Borrowing, and Reservations
+4. Begin Phase 10: Frontend Implementation
+5. Provide context files: AI_RULES.md, FRONTEND_STRUCTURE.md, API_SPEC.md
 
 ---
 
