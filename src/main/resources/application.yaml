@@ -4,6 +4,11 @@ spring:
   config:
     import: "optional:file:.env[.properties]"
 
+  servlet:
+    multipart:
+      max-file-size: 150MB
+      max-request-size: 150MB
+
   # ===========================
   # DataSource — PostgreSQL
   # ===========================

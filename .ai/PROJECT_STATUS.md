@@ -149,20 +149,21 @@ Tasks:
 
 ## Phase 8 — Dataset Import
 
-Status: 🔄 NEXT UP
+Status: ✅ COMPLETED
+Commit: `feat(dataset): implement Kaggle books dataset parsing and seeding`
 
 Tasks:
 
-* [ ] CSV parser implementation
-* [ ] Data cleaning (ISBN validation, duplicates removal)
-* [ ] Import into PostgreSQL
-* [ ] Initial dataset seeding
+* [x] CSV parser implementation
+* [x] Data cleaning (ISBN validation, duplicates removal)
+* [x] Import into PostgreSQL
+* [x] Initial dataset seeding
 
 ---
 
 ## Phase 9 — Docker Setup
 
-Status: NOT STARTED
+Status: 🔄 NEXT UP
 
 Tasks:
 
@@ -192,9 +193,11 @@ Tasks:
 
 Immediate next step:
 
-1. Verify Flyway migration runs cleanly on PostgreSQL
-2. Begin Phase 2: JWT Authentication System
-3. Provide context files: AI_RULES.md, PACKAGE_STRUCTURE.md, DATABASE_SCHEMA.md, API_SPEC.md
+1. Create Dockerfile for backend.
+2. Create docker-compose.yml for postgres and backend.
+3. Configure application.yaml for docker environment.
+4. Begin Phase 9: Docker Setup
+5. Provide context files: AI_RULES.md, DOCKER_ARCHITECTURE.md
 
 ---
 

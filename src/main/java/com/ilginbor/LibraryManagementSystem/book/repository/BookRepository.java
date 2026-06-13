@@ -14,6 +14,9 @@ public interface BookRepository extends JpaRepository<Book, Long> {
     Optional<Book> findByIsbn(String isbn);
     boolean existsByIsbn(String isbn);
 
+    @Query("SELECT b.isbn FROM Book b")
+    java.util.List<String> findAllIsbns();
+
     @Query("SELECT b FROM Book b WHERE " +
             "(:search IS NULL OR LOWER(b.title) LIKE LOWER(CONCAT('%', :search, '%')) OR " +
             "LOWER(b.author) LIKE LOWER(CONCAT('%', :search, '%'))) AND " +
